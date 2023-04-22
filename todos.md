@@ -1,0 +1,11 @@
+- ✅ First prototypish TS type
+- ✅ Script that
+  - ✅ downloads all Ionicon SVGs
+  - ✅ and creates typescript components for each icon
+  - ✅ and formats the generated code
+  - ✅ and exports them correctly for the library
+- prepublish script
+- ✅ Eslint + Prettier setup
+- publish library
+- Readme
+- Generic Ionicon component with `name` and `variant` props
