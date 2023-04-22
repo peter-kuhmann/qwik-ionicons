@@ -1,0 +1,22 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "generate:dev": "tsx watch index.ts",
+    "generate": "tsx index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@types/unzipper": "^0.10.5",
+    "axios": "^1.3.6",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4",
+    "unzipper": "^0.10.11"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.0"
+  }
+}
