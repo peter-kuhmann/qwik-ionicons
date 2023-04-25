@@ -10,7 +10,7 @@ const DESIGNER_PACK_URL = "https://ionic.io/ionicons/ionicons.designerpack.zip"
 const DESIGNER_PACK_OUT_FILE = ".ionicons-designerpack.zip"
 const DESIGNER_PACK_EXTRACT_DIR = ".ionicons-designerpack"
 
-const LIBRARY_DIR = "../library"
+const LIBRARY_DIR = ".."
 const COMPONENTS_DIR = LIBRARY_DIR + "/src/icons"
 
 
