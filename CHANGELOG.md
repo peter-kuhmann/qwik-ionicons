@@ -5,10 +5,14 @@
 * [📜 Changelog](#-changelog)
 * [📖 Table of contents](#-table-of-contents)
 * [1.x.y](#1xy)
+  * [1.0.1](#101)
   * [1.0.0](#100)
 <!-- TOC -->
 
 # 1.x.y
+
+## 1.0.1
+- [NEW] NPM keywords
 
 ## 1.0.0
 - [NEW] Ionicons for Qwik

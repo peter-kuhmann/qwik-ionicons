@@ -1,6 +1,6 @@
 {
   "name": "@tectonique/ionicons-qwik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ionicons for Qwik ⚡️",
   "repository": "https://github.com/tectonique/ionicons-qwik",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "name": "Peter Kuhmann",
     "email": "peter@hedgehogs-mind.com"
   },
+  "keywords": ["qwik", "ionicons", "icons", "ionic", "symbols", "svg"],
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
