@@ -11,7 +11,7 @@ export const TabletPortraitOutline = component$<IoniconProps>((props) => {
         height="480"
         rx="48"
         ry="48"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

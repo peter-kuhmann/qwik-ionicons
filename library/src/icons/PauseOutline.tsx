@@ -9,14 +9,14 @@ export const PauseOutline = component$<IoniconProps>((props) => {
         y="96"
         width="16"
         height="320"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="320"
         y="96"
         width="16"
         height="320"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

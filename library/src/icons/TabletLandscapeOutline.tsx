@@ -12,7 +12,7 @@ export const TabletLandscapeOutline = component$<IoniconProps>((props) => {
         rx="48"
         ry="48"
         transform="translate(0 512) rotate(-90)"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

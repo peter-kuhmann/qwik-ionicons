@@ -6,7 +6,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"
@@ -17,7 +17,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"
@@ -28,7 +28,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"
@@ -36,7 +36,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"
@@ -47,7 +47,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"
@@ -55,7 +55,7 @@ export const StorefrontOutline = component$<IoniconProps>((props) => {
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="32"

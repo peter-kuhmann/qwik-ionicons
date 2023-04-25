@@ -12,7 +12,7 @@ export const Unlink = component$<IoniconProps>((props) => {
       <path
         d="M200.66,352H144a96,96,0,0,1,0-192h55.41"
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="48"
@@ -20,7 +20,7 @@ export const Unlink = component$<IoniconProps>((props) => {
       <path
         d="M312.59,160H368a96,96,0,0,1,0,192H311.34"
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-width="48"

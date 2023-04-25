@@ -10,7 +10,7 @@ export const Tv = component$<IoniconProps>((props) => {
         y1="416"
         x2="384"
         y2="416"
-        style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+        style="stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
       />
     </svg>
   );

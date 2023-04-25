@@ -9,7 +9,7 @@ export const BarbellOutline = component$<IoniconProps>((props) => {
         y1="256"
         x2="464"
         y2="256"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="384"
@@ -18,7 +18,7 @@ export const BarbellOutline = component$<IoniconProps>((props) => {
         height="256"
         rx="16"
         ry="16"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="96"
@@ -27,7 +27,7 @@ export const BarbellOutline = component$<IoniconProps>((props) => {
         height="256"
         rx="16"
         ry="16"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="32"
@@ -36,7 +36,7 @@ export const BarbellOutline = component$<IoniconProps>((props) => {
         height="128"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="464"
@@ -45,7 +45,7 @@ export const BarbellOutline = component$<IoniconProps>((props) => {
         height="128"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

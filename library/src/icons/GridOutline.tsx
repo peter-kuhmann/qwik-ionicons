@@ -11,7 +11,7 @@ export const GridOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="288"
@@ -20,7 +20,7 @@ export const GridOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="48"
@@ -29,7 +29,7 @@ export const GridOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="288"
@@ -38,7 +38,7 @@ export const GridOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

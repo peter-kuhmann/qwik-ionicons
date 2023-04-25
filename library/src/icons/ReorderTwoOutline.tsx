@@ -9,14 +9,14 @@ export const ReorderTwoOutline = component$<IoniconProps>((props) => {
         y1="304"
         x2="400"
         y2="304"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <line
         x1="112"
         y1="208"
         x2="400"
         y2="208"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

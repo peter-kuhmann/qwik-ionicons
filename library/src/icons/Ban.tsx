@@ -6,7 +6,7 @@ export const Ban = component$<IoniconProps>((props) => {
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <circle
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-miterlimit="10"
         stroke-width="48"
         cx="256"
@@ -14,7 +14,7 @@ export const Ban = component$<IoniconProps>((props) => {
         r="200"
       />
       <line
-        stroke="#000"
+        stroke="currentColor"
         stroke-miterlimit="10"
         stroke-width="48"
         x1="114.58"

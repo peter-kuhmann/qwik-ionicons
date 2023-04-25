@@ -6,7 +6,7 @@ export const CalendarClearOutline = component$<IoniconProps>((props) => {
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <rect
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="32"
         x="48"
@@ -17,7 +17,7 @@ export const CalendarClearOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="32"
         stroke-linecap="round"
@@ -28,7 +28,7 @@ export const CalendarClearOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="32"
         stroke-linecap="round"
@@ -39,7 +39,7 @@ export const CalendarClearOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linejoin="round"
         stroke-width="32"
         stroke-linecap="round"

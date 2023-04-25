@@ -6,7 +6,7 @@ export const VideocamOffOutline = component$<IoniconProps>((props) => {
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-width="32"
         stroke-linejoin="round"
@@ -14,7 +14,7 @@ export const VideocamOffOutline = component$<IoniconProps>((props) => {
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-width="32"
         stroke-miterlimit="10"
@@ -22,7 +22,7 @@ export const VideocamOffOutline = component$<IoniconProps>((props) => {
       />
       <path
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-width="32"
         stroke-miterlimit="10"
@@ -30,7 +30,7 @@ export const VideocamOffOutline = component$<IoniconProps>((props) => {
       />
       <line
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-linecap="round"
         stroke-width="32"
         stroke-miterlimit="10"

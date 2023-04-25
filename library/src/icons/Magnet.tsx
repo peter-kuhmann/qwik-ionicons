@@ -9,21 +9,21 @@ export const Magnet = component$<IoniconProps>((props) => {
         y1="463.79"
         x2="191.98"
         y2="415.79"
-        style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+        style="stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
       />
       <line
         x1="90.16"
         y1="421.61"
         x2="124.1"
         y2="387.67"
-        style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+        style="stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
       />
       <line
         x1="47.98"
         y1="319.79"
         x2="95.98"
         y2="319.79"
-        style="stroke:#000;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
+        style="stroke:currentColor;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"
       />
       <path d="M267.56,312.32l-31.11,31.11a16,16,0,0,0,0,22.63l45.26,45.25a16,16,0,0,0,22.62,0l31.12-31.11a4,4,0,0,0,0-5.66l-62.23-62.22A4,4,0,0,0,267.56,312.32Z" />
       <path d="M131.8,176.55l-31.11,31.12a16,16,0,0,0,0,22.62l45.25,45.26a16,16,0,0,0,22.63,0l31.11-31.11a4,4,0,0,0,0-5.66l-62.22-62.23A4,4,0,0,0,131.8,176.55Z" />

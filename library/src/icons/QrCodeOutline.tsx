@@ -17,7 +17,7 @@ export const QrCodeOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="16"
         ry="16"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect x="96" y="96" width="80" height="80" rx="8" ry="8" />
       <rect
@@ -27,7 +27,7 @@ export const QrCodeOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="16"
         ry="16"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect x="96" y="336" width="80" height="80" rx="8" ry="8" />
       <rect
@@ -37,7 +37,7 @@ export const QrCodeOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="16"
         ry="16"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

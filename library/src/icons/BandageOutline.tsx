@@ -12,7 +12,7 @@ export const BandageOutline = component$<IoniconProps>((props) => {
         rx="88.12"
         ry="88.12"
         transform="translate(-106.04 256) rotate(-45)"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="169.41"
@@ -22,7 +22,7 @@ export const BandageOutline = component$<IoniconProps>((props) => {
         rx="32"
         ry="32"
         transform="translate(255.41 -107.45) rotate(45)"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <circle cx="256" cy="208" r="16" />
       <circle cx="304" cy="256" r="16" />

@@ -11,7 +11,7 @@ export const StatsChartOutline = component$<IoniconProps>((props) => {
         height="160"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="288"
@@ -20,7 +20,7 @@ export const StatsChartOutline = component$<IoniconProps>((props) => {
         height="256"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="400"
@@ -29,7 +29,7 @@ export const StatsChartOutline = component$<IoniconProps>((props) => {
         height="368"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="176"
@@ -38,7 +38,7 @@ export const StatsChartOutline = component$<IoniconProps>((props) => {
         height="448"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

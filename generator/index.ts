@@ -61,8 +61,10 @@ async function generateComponents() {
         const rawSvg = fs.readFileSync(DESIGNER_PACK_EXTRACT_DIR + "/" + svgFile, {encoding: "utf-8"})
         const parsedSvg = /(<svg(.|\n|\r)*<\/svg>)/.exec(rawSvg)
         if ( !parsedSvg ) throw Error(`Could not parse ${svgFile}`)
+
         const cleanedSvg = parsedSvg[1].replace('width="512"', "")
             .replace('height="512"', "")
+            .replaceAll("#000", "currentColor")
 
         const svgWithSpreadedProps = cleanedSvg.replace(/^<svg\s/, "<svg {...props} ")
         const content = `import { IoniconProps } from "../types/types";

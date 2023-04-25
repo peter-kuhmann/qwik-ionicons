@@ -11,7 +11,7 @@ export const SadOutline = component$<IoniconProps>((props) => {
         cx="256"
         cy="256"
         r="208"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
     </svg>
   );

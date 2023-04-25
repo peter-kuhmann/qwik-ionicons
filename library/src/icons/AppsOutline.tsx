@@ -11,7 +11,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="216"
@@ -20,7 +20,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="368"
@@ -29,7 +29,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="64"
@@ -38,7 +38,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="216"
@@ -47,7 +47,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="368"
@@ -56,7 +56,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="64"
@@ -65,7 +65,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="216"
@@ -74,7 +74,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
       <rect
         x="368"
@@ -83,7 +83,7 @@ export const AppsOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="40"
         ry="40"
-        style="fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"
       />
     </svg>
   );

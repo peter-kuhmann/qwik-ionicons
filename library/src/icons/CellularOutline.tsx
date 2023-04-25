@@ -11,7 +11,7 @@ export const CellularOutline = component$<IoniconProps>((props) => {
         height="320"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="288"
@@ -20,7 +20,7 @@ export const CellularOutline = component$<IoniconProps>((props) => {
         height="240"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="160"
@@ -29,7 +29,7 @@ export const CellularOutline = component$<IoniconProps>((props) => {
         height="176"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="32"
@@ -38,7 +38,7 @@ export const CellularOutline = component$<IoniconProps>((props) => {
         height="112"
         rx="8"
         ry="8"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

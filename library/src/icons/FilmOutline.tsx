@@ -11,7 +11,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="320"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="384"
@@ -20,7 +20,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="384"
@@ -29,7 +29,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="384"
@@ -38,7 +38,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="384"
@@ -47,7 +47,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="48"
@@ -56,7 +56,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="48"
@@ -65,7 +65,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="48"
@@ -74,7 +74,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="48"
@@ -83,7 +83,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="80"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="128"
@@ -92,7 +92,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="160"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="128"
@@ -101,7 +101,7 @@ export const FilmOutline = component$<IoniconProps>((props) => {
         height="160"
         rx="28"
         ry="28"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

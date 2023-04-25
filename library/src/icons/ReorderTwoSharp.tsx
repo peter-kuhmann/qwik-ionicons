@@ -9,14 +9,14 @@ export const ReorderTwoSharp = component$<IoniconProps>((props) => {
         y1="304"
         x2="394"
         y2="304"
-        style="fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px"
+        style="fill:none;stroke:currentColor;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px"
       />
       <line
         x1="118"
         y1="208"
         x2="394"
         y2="208"
-        style="fill:none;stroke:#000;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px"
+        style="fill:none;stroke:currentColor;stroke-linecap:square;stroke-linejoin:round;stroke-width:44px"
       />
     </svg>
   );

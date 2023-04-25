@@ -8,7 +8,7 @@ export const EllipseOutline = component$<IoniconProps>((props) => {
         cx="256"
         cy="256"
         r="192"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

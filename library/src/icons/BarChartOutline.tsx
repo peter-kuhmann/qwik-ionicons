@@ -6,7 +6,7 @@ export const BarChartOutline = component$<IoniconProps>((props) => {
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path
         d="M32,32V464a16,16,0,0,0,16,16H480"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="96"
@@ -15,7 +15,7 @@ export const BarChartOutline = component$<IoniconProps>((props) => {
         height="192"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="240"
@@ -24,7 +24,7 @@ export const BarChartOutline = component$<IoniconProps>((props) => {
         height="240"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
       <rect
         x="383.64"
@@ -33,7 +33,7 @@ export const BarChartOutline = component$<IoniconProps>((props) => {
         height="304"
         rx="20"
         ry="20"
-        style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

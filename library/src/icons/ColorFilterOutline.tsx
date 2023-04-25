@@ -8,19 +8,19 @@ export const ColorFilterOutline = component$<IoniconProps>((props) => {
         cx="256"
         cy="184"
         r="120"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <circle
         cx="344"
         cy="328"
         r="120"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
       <circle
         cx="168"
         cy="328"
         r="120"
-        style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"
+        style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"
       />
     </svg>
   );

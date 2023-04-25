@@ -14,7 +14,7 @@ export const BanOutline = component$<IoniconProps>((props) => {
         cy="256"
         r="208"
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-miterlimit="10"
         stroke-width="32"
       />
@@ -24,7 +24,7 @@ export const BanOutline = component$<IoniconProps>((props) => {
         x2="403.08"
         y2="403.08"
         fill="none"
-        stroke="#000"
+        stroke="currentColor"
         stroke-miterlimit="10"
         stroke-width="32"
       />
