@@ -1,6 +1,6 @@
 {
   "name": "qwik-ionicons",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ionicons for Qwik ⚡️",
   "repository": "https://github.com/peter-kuhmann/qwik-ionicons",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "release": "np",
     "start": "vite --open --mode ssr",
     "qwik": "qwik",
-    "clean": "rimraf lib && rimraf lib-types && cd .generator && yarn clean && cd ..",
+    "clean": "rimraf lib && rimraf lib-types && rimraf tsconfig.tsbuildinfo && cd .generator && yarn clean && cd ..",
     "runGenerator": "cd .generator && yarn generate && cd ..",
     "prepublishOnly": "yarn clean && yarn runGenerator && yarn build.lib && yarn build.types"
   },
