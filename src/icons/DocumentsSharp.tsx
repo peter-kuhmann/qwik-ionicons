@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const DocumentsSharp = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path d="M307.94,248,216,154.52V242a6,6,0,0,0,6,6Z" />
       <path d="M184,268V144H60a12,12,0,0,0-12,12V484a12,12,0,0,0,12,12H308a12,12,0,0,0,12-12V280H196A12,12,0,0,1,184,268Z" />
       <path d="M366,120h85.94L360,26.52V114A6,6,0,0,0,366,120Z" />

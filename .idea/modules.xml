@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ionicons-qwik.iml" filepath="$PROJECT_DIR$/.idea/ionicons-qwik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qwik-ionicons.iml" filepath="$PROJECT_DIR$/.idea/qwik-ionicons.iml" />
     </modules>
   </component>
 </project>

@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const WineOutline = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path
         d="M398.57,80H113.43V96S87.51,272,256,272,398.57,96,398.57,96Z"
         style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"

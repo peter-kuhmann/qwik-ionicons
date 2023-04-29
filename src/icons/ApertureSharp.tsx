@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const ApertureSharp = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <polygon points="216 48 345.49 176.18 345.49 48 216 48" />
       <polygon points="181.47 58.38 80 134 256 134 181.47 58.38" />
       <polygon points="336 344 464 344 464 216 336 344" />

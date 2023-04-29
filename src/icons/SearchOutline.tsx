@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const SearchOutline = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path
         d="M221.09,64A157.09,157.09,0,1,0,378.18,221.09,157.1,157.1,0,0,0,221.09,64Z"
         style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"

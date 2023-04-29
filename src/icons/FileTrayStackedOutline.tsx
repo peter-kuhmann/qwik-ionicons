@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const FileTrayStackedOutline = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path
         d="M48,336v96a48.14,48.14,0,0,0,48,48H416a48.14,48.14,0,0,0,48-48V336"
         style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"

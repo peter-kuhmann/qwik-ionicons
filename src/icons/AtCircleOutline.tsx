@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const AtCircleOutline = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path
         d="M448.08,256.08c0-106-86-192-192-192s-192,86-192,192,86,192,192,192S448.08,362.11,448.08,256.08Z"
         style="fill:none;stroke:currentColor;stroke-miterlimit:10;stroke-width:32px"

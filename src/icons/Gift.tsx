@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const Gift = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path d="M200,144h40V104a40,40,0,1,0-40,40Z" style="fill:none" />
       <path
         d="M352,104a40,40,0,0,0-80,0v40h40A40,40,0,0,0,352,104Z"

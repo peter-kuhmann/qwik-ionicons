@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const QrCode = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <rect x="336" y="336" width="80" height="80" rx="8" ry="8" />
       <rect x="272" y="272" width="64" height="64" rx="8" ry="8" />
       <rect x="416" y="416" width="64" height="64" rx="8" ry="8" />

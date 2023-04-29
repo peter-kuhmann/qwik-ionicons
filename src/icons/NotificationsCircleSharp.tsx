@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const NotificationsCircleSharp = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path d="M295.68,351.43c0,.19,0,.38,0,.57H296Z" />
       <path
         d="M256,384c22.28,0,39.36-10.63,39.66-32H216C216,373.75,233.53,384,256,384Z"

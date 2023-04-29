@@ -66,12 +66,12 @@ async function generateComponents() {
             .replace('height="512"', "")
             .replaceAll("#000", "currentColor")
 
-        const svgWithSpreadedProps = cleanedSvg.replace(/^<svg\s/, "<svg {...props} ")
+        const svgWithSpreadedPropsAndClass = cleanedSvg.replace(/^<svg\s/, "<svg {...props} class={'ionicon' + (props.class ? ' '+props.class : '')} ")
         const content = `import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
 export const ${componentName} = component$<IoniconProps>((props) => {
-  return ${svgWithSpreadedProps};
+  return ${svgWithSpreadedPropsAndClass};
 });
 `
 

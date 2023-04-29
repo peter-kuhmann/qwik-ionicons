@@ -1,11 +1,11 @@
 <p align="center">
-  <img src=".assets/logo.png" alt="Logo of library tectonique/ionicons-qwik" width="500">
+  <img src=".assets/logo.png" alt="Logo of library qwik-ionicons" width="500">
 </p>
 <hr>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@tectonique/ionicons-qwik">
-    <img alt="npm" src="https://img.shields.io/npm/v/@tectonique/ionicons-qwik?color=%23e62770&label=NPM">
+  <a href="https://www.npmjs.com/package/qwik-ionicons">
+    <img alt="npm" src="https://img.shields.io/npm/v/qwik-ionicons?color=%23e62770&label=NPM">
   </a>
   <img alt="Status = BETA" src="https://img.shields.io/badge/Status-BETA-orange">
 </p>
@@ -28,7 +28,7 @@ _**Then this library is perfect for you!**_
 * [🍽️ Usage](#-usage)
 * [⚙️ Props](#-props)
 * [🌈 Colours](#-colours)
-* [🏎️ Size and performance](#-size-and-performance)
+* [🏎️ SVG/HTML footprint](#-svghtml-footprint)
 * [❤️ Kudos](#-kudos)
 * [🩹 Problems?](#-problems)
 * [🦔 Author](#-author)
@@ -37,12 +37,12 @@ _**Then this library is perfect for you!**_
 # ⚒️ Installation
 NPM:
 ```bash
-npm add @tectonique/ionicons-qwik
+npm add qwik-ionicons
 ```
 
 Yarn:
 ```bash
-yarn add @tectonique/ionicons-qwik
+yarn add qwik-ionicons
 ```
 
 # 🐣 Icon search
@@ -62,12 +62,12 @@ Rewrite the name using **Pascal Case**. So `flash-outline` becomes `FlashOutline
 
 Now you can import `FlashOutline` straight from the library:
 ```ts
-import { FlashOutline } from "@tectonique/ionicons-qwik";
+import { FlashOutline } from "qwik-ionicons";
 ```
 
 Here is an example component:
 ```tsx
-import { FlashOutline } from "@tectonique/ionicons-qwik";
+import { FlashOutline } from "qwik-ionicons";
 
 export default component$(() => {
     return <FlashOutline width="64" data-test="flash-icon" />
@@ -124,12 +124,11 @@ Feel free to create a GitHub issue. Thanks for reporting any problems! ☺️
 <p align="center">
   <b>Peter Kuhmann</b>
   <br>
-  <a href="https://github.com/hedgehogs-mind">GitHub: hedgehogs-mind</a>
+  <br>
+  <a href="https://github.com/peter-kuhmann">GitHub</a>
+  <br>
+  <a href="mailto:info@peter-kuhmann.de">info@peter-kuhmann.de</a>
   <br>
   <br>
-  <br>
-  <b>Tectonique</b>
-  <br>
-  <br>
-  <img src=".assets/tectonique-small.png" alt="Tectonique logo" width="300">
+  <img src=".assets/peter-kuhmann-logo.webp" alt="Peter Kuhmann logo" width="300">
 </p>

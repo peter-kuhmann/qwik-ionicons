@@ -3,7 +3,12 @@ import { component$ } from "@builder.io/qwik";
 
 export const BusSharp = component$<IoniconProps>((props) => {
   return (
-    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <svg
+      {...props}
+      class={"ionicon" + (props.class ? " " + props.class : "")}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+    >
       <path
         d="M400,64H112a16,16,0,0,0,0,32H400a16,16,0,0,0,0-32Z"
         style="fill:none"
