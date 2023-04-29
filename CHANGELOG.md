@@ -10,5 +10,8 @@
 
 # 1.x.y
 
+# 1.0.1
+- [DOCS] More information about targeting icons for styling (e.g. general `ionicon` class).
+
 ## 1.0.0
 - [NEW] Ionicons for Qwik

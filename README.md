@@ -91,15 +91,25 @@ export default component$(() => {
 })
 ```
 
-# 🌈 Colours
-All SVGs make use of the `currentColor` property. This means, you can
-flexibly colorize all icons by specifying the font color.
+# 🌈 Styling
+All SVGs will have the class `ionicon`. This allows you to define global default styles
+for all ionicons using CSS.
+
+## 📏 Size
+You can use CSS class styles or inline CSS style to set the size per Icon.
+
+If you need a default size for all ionicons, make use of the class `ionicon`.
+
+## 🎨 Color
+All SVGs make use of the `currentColor` property. By default, the icons
+will use the same color as the current text color. To adjust an icon's color,
+you just need to change the text color (CSS attribute `color`).
 
 For that, you can use:
-- CSS classes
-- inline style
-- Tailwind classes
-- ... whatever you like :)
+- CSS classes,
+- inline style,
+- Tailwind classes,
+- ... or whatever you like :)
 
 # 🏎️ SVG/HTML footprint
 The library is constructed using Qwik's `component$` method.
