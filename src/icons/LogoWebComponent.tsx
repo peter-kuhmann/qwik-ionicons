@@ -1,14 +1,11 @@
 import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
-export const LogoWebComponent = component$<IoniconProps>((props) => {
+export const LogoWebComponent = component$<IoniconProps>((rawProps) => {
+  const props = { ...rawProps };
+  props.class = props.class ?? "" + " ionicon";
   return (
-    <svg
-      {...props}
-      class={"ionicon" + (props.class ? " " + props.class : "")}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
-    >
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <polygon
         points="179.9 388 179.9 388 103.74 256 179.9 388"
         style="fill:none"

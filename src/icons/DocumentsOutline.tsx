@@ -1,14 +1,11 @@
 import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
-export const DocumentsOutline = component$<IoniconProps>((props) => {
+export const DocumentsOutline = component$<IoniconProps>((rawProps) => {
+  const props = { ...rawProps };
+  props.class = props.class ?? "" + " ionicon";
   return (
-    <svg
-      {...props}
-      class={"ionicon" + (props.class ? " " + props.class : "")}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
-    >
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path
         d="M336,264.13V436c0,24.3-19.05,44-42.95,44H107C83.05,480,64,460.3,64,436V172a44.26,44.26,0,0,1,44-44h94.12a24.55,24.55,0,0,1,17.49,7.36l109.15,111A25.4,25.4,0,0,1,336,264.13Z"
         style="fill:none;stroke:currentColor;stroke-linejoin:round;stroke-width:32px"

@@ -1,14 +1,11 @@
 import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
-export const Globe = component$<IoniconProps>((props) => {
+export const Globe = component$<IoniconProps>((rawProps) => {
+  const props = { ...rawProps };
+  props.class = props.class ?? "" + " ionicon";
   return (
-    <svg
-      {...props}
-      class={"ionicon" + (props.class ? " " + props.class : "")}
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 512 512"
-    >
+    <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M340.75,344.49c5.91-20.7,9.82-44.75,11.31-67.84A4.41,4.41,0,0,0,347.6,272H276.54a4.43,4.43,0,0,0-4.47,4.39v55.3a4.44,4.44,0,0,0,4.14,4.38,273.51,273.51,0,0,1,59,11.39A4.45,4.45,0,0,0,340.75,344.49Z" />
       <path d="M323.58,377.31a260.05,260.05,0,0,0-46.6-9.09,4.42,4.42,0,0,0-4.91,4.29v65.24a4.47,4.47,0,0,0,6.76,3.7c15.9-9.27,29-24.84,40.84-45.43,1.94-3.36,4.89-9.15,6.67-12.69A4.29,4.29,0,0,0,323.58,377.31Z" />
       <path d="M235.29,368.4a256.85,256.85,0,0,0-46.56,8.82c-2.64.76-3.75,4.4-2.55,6.79,1.79,3.56,4,8.11,5.89,11.51,13,23,26.84,37.5,41.24,45.93a4.47,4.47,0,0,0,6.76-3.7V372.48A4.16,4.16,0,0,0,235.29,368.4Z" />

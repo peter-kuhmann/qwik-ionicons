@@ -1,11 +1,12 @@
 import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
-export const LogoGitlab = component$<IoniconProps>((props) => {
+export const LogoGitlab = component$<IoniconProps>((rawProps) => {
+  const props = { ...rawProps };
+  props.class = props.class ?? "" + " ionicon";
   return (
     <svg
       {...props}
-      class={"ionicon" + (props.class ? " " + props.class : "")}
       id="Layer_1"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"

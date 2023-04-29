@@ -1,11 +1,12 @@
 import { IoniconProps } from "../types/types";
 import { component$ } from "@builder.io/qwik";
 
-export const LogoMedium = component$<IoniconProps>((props) => {
+export const LogoMedium = component$<IoniconProps>((rawProps) => {
+  const props = { ...rawProps };
+  props.class = props.class ?? "" + " ionicon";
   return (
     <svg
       {...props}
-      class={"ionicon" + (props.class ? " " + props.class : "")}
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
