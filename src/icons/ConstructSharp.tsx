@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const ConstructSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M497.14,111.38l-81.09,80.84-48.58-48.41L448.56,63c-45.22-22-108.65-22.09-146.2,15.35-35.32,35.2-39.73,90.61-22.54,134.2L99.57,391.37a12,12,0,0,0,0,17l52.27,52.11a12,12,0,0,0,17,0l180-180.5c43.16,16.21,98,11.64,132.74-23C519.08,219.53,519,156.64,497.14,111.38Z" />

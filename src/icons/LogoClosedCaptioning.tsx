@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const LogoClosedCaptioning = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M0,80V432H512V80ZM464,255.78c0,25.74-1.6,45.32-3.77,77.22s-19.2,54.34-59.09,57.86S305.37,394.71,256,394.6c-49,.11-105.14-.11-145.14-3.74s-56.8-26-59.09-57.86S48,281.52,48,255.78s.11-42.46,3.77-77.22,23-54.12,59.09-57.64S209.14,117.4,256,117.4s109,0,145.14,3.52,55.43,23,59.09,57.64S464,230.15,464,255.78Z" />

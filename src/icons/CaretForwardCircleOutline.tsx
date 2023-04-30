@@ -4,7 +4,7 @@ import { component$ } from "@builder.io/qwik";
 export const CaretForwardCircleOutline = component$<IoniconProps>(
   (rawProps) => {
     const props = { ...rawProps };
-    props.class = props.class ?? "" + " ionicon";
+    props.class = ((props.class ?? "") + " ionicon").trim();
     return (
       <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
         <path d="M238.23,342.43l89.09-74.13a16,16,0,0,0,0-24.6l-89.09-74.13A16,16,0,0,0,212,181.86V330.14A16,16,0,0,0,238.23,342.43Z" />

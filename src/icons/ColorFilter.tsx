@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const ColorFilter = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M253.72,202.53a4,4,0,0,0,4.56,0,151.88,151.88,0,0,1,128.44-20.41,4,4,0,0,0,5.15-4C388.8,105.86,329,48,256,48S123.2,105.86,120.13,178.15a4,4,0,0,0,5.15,4,151.88,151.88,0,0,1,128.44,20.41Z" />

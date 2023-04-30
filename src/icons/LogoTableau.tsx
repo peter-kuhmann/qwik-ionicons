@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const LogoTableau = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M242.69,340.3h26.62V267.7h67V241.88h-67v-72.6H242.69v72.6H176.54V267.7h66.15Z" />

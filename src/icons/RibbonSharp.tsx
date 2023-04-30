@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const RibbonSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M256,336c-5.22,0-10.4-.24-15.51-.69A176.12,176.12,0,0,1,109.2,256.94L20,416H135l58,96,82.53-177.09A177.53,177.53,0,0,1,256,336Z" />

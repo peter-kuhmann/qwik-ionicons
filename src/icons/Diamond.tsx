@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const Diamond = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg
       {...props}

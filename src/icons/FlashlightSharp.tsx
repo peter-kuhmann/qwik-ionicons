@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const FlashlightSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <polygon points="330 16 287.32 58.7 453.3 224.68 496 182 330 16" />

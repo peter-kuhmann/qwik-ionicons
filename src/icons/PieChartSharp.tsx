@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const PieChartSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M58,362.09,51.49,347.5A224,224,0,0,1,256,32h16V266.37Z" />

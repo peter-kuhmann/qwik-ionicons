@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const LogoAngular = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <polygon points="213.57 256 298.42 256 255.99 166.64 213.57 256" />

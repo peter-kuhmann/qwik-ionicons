@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const BatteryFullSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M17,384H449V128H17ZM49,160H417V352H49Z" />

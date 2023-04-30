@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const UmbrellaSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M128.93,280l-.26-.3c-.9-.74-1.83-1.43-2.77-2.1Z" />

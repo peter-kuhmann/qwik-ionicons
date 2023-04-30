@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const WatchSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <rect x="136" y="136" width="240" height="240" rx="8" ry="8" />

@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const LogoSlack = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M126.12,315.1A47.06,47.06,0,1,1,79.06,268h47.06Z" />

@@ -72,7 +72,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const ${componentName} = component$<IoniconProps>((rawProps) => {
   const props = {...rawProps}
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return ${svgWithSpreadedPropsAndClass};
 });
 `

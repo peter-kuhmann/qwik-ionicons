@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const ImagesSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <ellipse cx="373.14" cy="219.33" rx="46.29" ry="46" style="fill:none" />

@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const SchoolSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <polygon points="256 370.43 96 279 96 377.42 256 466.3 416 377.42 416 279 256 370.43" />

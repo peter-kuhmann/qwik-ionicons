@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const EarthSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path d="M267,474l-.8-.13A.85.85,0,0,0,267,474Z" />

@@ -3,7 +3,7 @@ import { component$ } from "@builder.io/qwik";
 
 export const PencilSharp = component$<IoniconProps>((rawProps) => {
   const props = { ...rawProps };
-  props.class = props.class ?? "" + " ionicon";
+  props.class = ((props.class ?? "") + " ionicon").trim();
   return (
     <svg {...props} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <polygon points="103 464 48 464 48 409 358.14 98.09 413.91 153.87 103 464" />

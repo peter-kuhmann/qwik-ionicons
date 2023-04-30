@@ -5,6 +5,7 @@
 * [📜 Changelog](#-changelog)
 * [📖 Table of contents](#-table-of-contents)
 * [1.x.y](#1xy)
+  * [1.0.5](#105)
   * [1.0.4](#104)
   * [1.0.3](#103)
   * [1.0.2](#102)
@@ -13,6 +14,9 @@
 <!-- TOC -->
 
 # 1.x.y
+
+## 1.0.5
+- [FIX] Class "ionicon" was removed.
 
 ## 1.0.4
 - [FIX] Tricked compiler to avoid Qwik message "QWIK WARN JSX is receiving duplicated props (class)."
